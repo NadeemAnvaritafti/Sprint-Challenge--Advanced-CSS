@@ -33,14 +33,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+        
+        -- Adaptive sites accommodate different screen sizes by using media queries, but their layout widths are still hard coded.  
+        -- Responsive sites are more fluid and accommodate many devices; responsive units are used throughout the site (i.e. percentages and view heights/widths).
 
 2. Describe what it means to be mobile first vs desktop first.
 
+        -- mobile first: refers to a site design or layout that has styles accommodating a mobile device and then media queries are used to make the site more responsive as the screen size expands.  
+        -- desktop first: refers to the opposite - the styles accommodate a larger desktop screen and are later changed as the screen size decreases.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+        -- the (font-size: 62.5%) makes the default font size of your webpage 62.5% of the browser's default font size.  This usually resets your website's font size to 10px, which makes using rem units much easier to calculate.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+        -- Preprocessing is a more robust syntax for CSS written in a slightly different language.  It introduces new processes and formulas which help minimize how much code you need to write.  It also helps organize your css code similar to how html is organized.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+        -- My favorite concept in preprocessing has to be the nesting.  This has really helped me organize my code. None of the concepts give me too much trouble, however, the parametric mixins can be a bit confusing because of how many variables tend to be involved.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

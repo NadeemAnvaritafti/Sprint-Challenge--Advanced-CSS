@@ -1,1 +1,30 @@
 // Mixins Here
+.displayflex(){
+    display: flex;
+    flex-direction: column;
+}
+
+.commonpadding(){
+    width: 100%;
+    padding: 15px;
+}
+
+.linkstyling(){
+    font-family: 'Ubuntu', sans-serif;
+    color: @nav-font;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+.sign-up-btn(@buttoncolor, @buttonwidth, @buttonfontsize, @buttonfontcolor){
+    background: @buttoncolor;
+    width: @buttonwidth;
+    font-size: @buttonfontsize;
+    color: @buttonfontcolor;
+    border-radius: 5px;
+    display: block;
+    border-width: thin;
+    padding: 2% 2%;
+    cursor: pointer;
+}

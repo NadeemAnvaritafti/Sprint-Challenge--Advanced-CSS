@@ -1,1 +1,38 @@
 // Navigation code here
+.entirenav {
+    background: @nav-bg;
+    border-bottom: 2px solid @nav-border;
+
+    nav {
+        .displayflex();
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        
+
+        h1 {
+            font-size: 3.4rem;
+            padding-bottom: 2%;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-evenly;
+            width: 60%;
+
+            @media @phone {
+                width: 100%;
+                margin-top: 2%;
+                padding: 0 7%;
+            }//closes media query
+
+            a {
+                .linkstyling();
+
+                &:hover{
+                    text-transform: uppercase;
+                }//closes pseudo anchor
+            }//closes anchor
+        }//closes div
+    }//closes nav
+}//closes entire nav section
